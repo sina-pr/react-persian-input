@@ -10,7 +10,7 @@ Open a Terminal in your project's folder and run:
 npm i react-persian-input
 ```
 
-##Usage
+## Usage
 
 ```js
   ...
@@ -30,7 +30,7 @@ npm i react-persian-input
 
 ```
 
-####Props
+#### Props
 
 | Prop                 | Description                                                           | Type:DefaultValue |
 | -------------------- | --------------------------------------------------------------------- | ----------------- |
