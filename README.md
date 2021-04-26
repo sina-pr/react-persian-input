@@ -1,6 +1,7 @@
 # react-persian-input
 
 Full customizable outlined text input for right to left languages.
+![alt text](https://media4.giphy.com/media/TQknPTK4ooEEPE3Na8/giphy.gif)
 
 ## Installation
 
