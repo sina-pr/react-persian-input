@@ -42,7 +42,7 @@ npm i react-persian-input
 | `labelOnFocusStyle`  | style of label when it's on focus                                     | object            |
 | `borderStyle`        | style of border when it's not on focus                                | object            |
 | `borderOnFocusStyle` | style of border when it's on focus                                    | object            |
-| `inputStyle,`        | Style of input                                                        | object            |
+| `inputStyle`         | Style of input                                                        | object            |
 | `moveLabelTop`       | move label to top when on focus (use negative number for move bottom) | string:25px       |
 | `moveLabelRight`     | move label to right when on focus (use negative number for move left) | string:10px       |
-| `scaleLabel`         | scale label when of focus                                             | string: .94       |
+| `scaleLabel`         | scale label when on focus                                             | string: .94       |

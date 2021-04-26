@@ -3,8 +3,9 @@
   margin: 1.5rem;
 }
 .border-persian-input {
-  display: inline-flex;
-  align-items: flex-end;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
   border: 2px solid grey;
   min-height: fit-content;
   width: 100%;

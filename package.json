@@ -1,6 +1,6 @@
 {
   "name": "react-persian-input",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "Outline text input for right to left language like Persian ,Arabic and ...",
   "main": "dist/main.js",
   "scripts": {

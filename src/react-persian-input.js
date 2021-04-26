@@ -15,9 +15,9 @@ const FaInput = ({
   borderOnFocusStyle,
   borderErrorStyle,
   labelOnFocusStyle,
-  moveLableTop,
-  moveLableRight,
-  scaleLable,
+  moveLabelTop,
+  moveLabelRight,
+  scaleLabel,
 }) => {
   const [onFocusStyleBorder, setOnFocusStyleBorder] = useState({});
   const [onFocusStyleLabel, setOnFocusStyleLabel] = useState({});
@@ -27,7 +27,7 @@ const FaInput = ({
   const onClickInputHanlder = () => {
     setOnFocusStyleBorder({ borderColor: "blueviolet", ...borderOnFocusStyle });
     setOnFocusStyleLabel({
-      transform: `translateY(${moveLableTop}) translateX(${moveLableRight}) scale(${scaleLable})`,
+      transform: `translateY(-${moveLabelTop}) translateX(${moveLabelRight}) scale(${scaleLabel})`,
       ...labelOnFocusStyle,
     });
     /*setOnFocusStyleLabel({
@@ -78,9 +78,9 @@ const FaInput = ({
 };
 
 FaInput.defaultProps = {
-  moveLableTop: "-22px",
-  moveLableRight: "10px",
-  scaleLable: ".94",
+  moveLabelTop: "22px",
+  moveLabelRight: "10px",
+  scaleLabel: ".94",
 };
 FaInput.propTypes = {
   label: PropTypes.string.isRequired,
@@ -95,8 +95,8 @@ FaInput.propTypes = {
   borderOnFocusStyle: PropTypes.object,
   borderErrorStyle: PropTypes.object,
   labelOnFocusStyle: PropTypes.object,
-  moveLableTop: PropTypes.string,
-  moveLableRight: PropTypes.string,
-  scaleLable: PropTypes.string.isRequired,
+  moveLabelTop: PropTypes.string,
+  moveLabelRight: PropTypes.string,
+  scaleLabel: PropTypes.string.isRequired,
 };
 export default FaInput;
